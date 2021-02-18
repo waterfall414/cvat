@@ -896,7 +896,8 @@ taskname.zip/
     └── wider_face_<any_subset_name>_bbx_gt.txt
 ```
 
-- supported annotations: Rectangles, Labels
+- supported annotations: Rectangles (with attributes), Labels
+- supported attributes: `blur`, `expression`, `illumination`, `occluded`, `pose`, `invalid`
 
 #### WIDER Face Loader
 
